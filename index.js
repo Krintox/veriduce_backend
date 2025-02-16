@@ -16,9 +16,13 @@ app.use(express.json());
 
 app.use('/deploy', deployRouter);
 app.use('/contract', contractRouter);
-app.use('/cloudinary',cloudinaryRouter);
-app.use('/metaData',metaDataRouter);
+app.use('/cloudinary', cloudinaryRouter);
+app.use('/metaData', metaDataRouter);
 
-app.listen(7993, ()=>{
+app.get('/', (req, res) => {
+    res.send('Server is live');
+});
+
+app.listen(7993, () => {
     console.log('Server is running on port 7993');
 });
