@@ -1,0 +1,79 @@
+
+[block:7687523 txIndex:54]from: 0x244...62a84to: OneTimeSaleToken.(constructor)value: 0 weidata: 0x608...00000logs: 2hash: 0x7e1...67ac5
+status	0x1 Transaction mined and execution succeed
+transaction hash	0x2bfa1440f497b83d537e45c85129393b539d267ea59244f772f983d66f3f8db2
+block hash	0x7e1b03a34a60041f81080d3ce503fd96cf2db9d13ed89ad67ed87483e6167ac5
+block number	7687523
+contract address	0xf5439886d2ee50036d35ad329f603160437e6e0d
+from	0x244b2e5625e0f9ba79e4e8f6a7b37d9a9a562a84
+to	OneTimeSaleToken.(constructor)
+gas	1800144 gas
+transaction cost	1784812 gas 
+input	0x608...00000
+decoded input	{
+	"string name": "MyToken",
+	"string symbol": "MTK",
+	"uint256 initialSupply": "1000000",
+	"uint256 _salePrice": "1000000000000000",
+	"string _metaData": "https://example.com/token-metadata",
+	"address _payoutAddress": "0x244b2e5625e0F9bA79e4E8f6a7b37d9a9a562a84"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xf5439886d2ee50036d35ad329f603160437e6e0d",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x244b2e5625e0F9bA79e4E8f6a7b37d9a9a562a84",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x244b2e5625e0F9bA79e4E8f6a7b37d9a9a562a84"
+		}
+	},
+	{
+		"from": "0xf5439886d2ee50036d35ad329f603160437e6e0d",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x244b2e5625e0F9bA79e4E8f6a7b37d9a9a562a84",
+			"2": "1000000000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x244b2e5625e0F9bA79e4E8f6a7b37d9a9a562a84",
+			"value": "1000000000000000000000000"
+		}
+	}
+]
+raw logs	[
+  {
+    "address": "0xf5439886d2ee50036d35ad329f603160437e6e0d",
+    "blockHash": "0x7e1b03a34a60041f81080d3ce503fd96cf2db9d13ed89ad67ed87483e6167ac5",
+    "blockNumber": "0x754d63",
+    "data": "0x",
+    "logIndex": "0x6f",
+    "removed": false,
+    "topics": [
+      "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x000000000000000000000000244b2e5625e0f9ba79e4e8f6a7b37d9a9a562a84"
+    ],
+    "transactionHash": "0x2bfa1440f497b83d537e45c85129393b539d267ea59244f772f983d66f3f8db2",
+    "transactionIndex": "0x36"
+  },
+  {
+    "address": "0xf5439886d2ee50036d35ad329f603160437e6e0d",
+    "blockHash": "0x7e1b03a34a60041f81080d3ce503fd96cf2db9d13ed89ad67ed87483e6167ac5",
+    "blockNumber": "0x754d63",
+    "data": "0x00000000000000000000000000000000000000000000d3c21bcecceda1000000",
+    "logIndex": "0x70",
+    "removed": false,
+    "topics": [
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+      "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "0x000000000000000000000000244b2e5625e0f9ba79e4e8f6a7b37d9a9a562a84"
+    ],
+    "transactionHash": "0x2bfa1440f497b83d537e45c85129393b539d267ea59244f772f983d66f3f8db2",
+    "transactionIndex": "0x36"
+  }
+]
