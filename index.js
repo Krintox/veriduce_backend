@@ -20,7 +20,7 @@ app.use('/cloudinary', cloudinaryRouter);
 app.use('/metaData', metaDataRouter);
 
 app.get('/', (req, res) => {
-    res.send('Server is live');
+    res.send('Server is live 🎉🎉');
 });
 
 app.listen(7993, () => {
